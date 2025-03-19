@@ -25,9 +25,6 @@ The lab tasks in this repository cover a range of topics, including but not limi
 - Object-oriented programming (OOP) principles
 - Design patterns and best practices
 - Code refactoring techniques
-- Unit testing and debugging
-- Version control with Git
-- Software documentation and maintainability
 
 ## How to Use This Repository
 1. Clone the repository to your local machine:
