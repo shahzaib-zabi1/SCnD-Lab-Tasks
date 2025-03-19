@@ -12,8 +12,7 @@ public class Product implements Cloneable {
     private String category;
     private double price;
     private String color;
-
-    // Constructors
+    
     public Product() {}
 
     public Product(String name, String category, double price, String color) {
@@ -23,7 +22,6 @@ public class Product implements Cloneable {
         this.color = color;
     }
 
-    // Getters and Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
@@ -39,7 +37,6 @@ public class Product implements Cloneable {
     public String getColor() { return color; }
     public void setColor(String color) { this.color = color; }
 
-    // Implement Cloneable (Prototype Pattern)
     @Override
     public Product clone() {
         try {

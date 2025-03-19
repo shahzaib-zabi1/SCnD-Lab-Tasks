@@ -14,17 +14,15 @@ public class ProductService {
     @Autowired
     private ProductRepository productRepository;
 
-    // ✅ Create a single product
     public Product createProduct(Product product) {
         return productRepository.save(product);
     }
 
-    // ✅ Create multiple products at once
+
     public List<Product> createMultipleProducts(List<Product> products) {
         return productRepository.saveAll(products);
     }
 
-    // ✅ Clone a product with a different color
     public Product cloneProduct(Long productId, String newColor) {
         Optional<Product> existingProduct = productRepository.findById(productId);
         if (existingProduct.isPresent()) {
@@ -37,7 +35,6 @@ public class ProductService {
         }
     }
 
-    // ✅ Get all products
     public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
