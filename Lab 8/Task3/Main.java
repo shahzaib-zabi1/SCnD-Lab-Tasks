@@ -9,7 +9,7 @@ public class Main {
             System.out.println("\n===== 🎮 Game Settings Menu =====");
             System.out.println("1️⃣ View Current Settings");
             System.out.println("2️⃣ Set Volume");
-            System.out.println("3️⃣ Set Screen Resolution");
+            System.out.println(" Set Screen Resolution");
             System.out.println("4️⃣ Exit");
             System.out.print("Choose an option: ");
 
