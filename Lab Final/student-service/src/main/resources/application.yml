@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: student-service
+
+  config:
+    import: optional:configserver:http://malikshahzaib:hacker192@localhost:8888/
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
